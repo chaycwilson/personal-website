@@ -56,8 +56,8 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "chaycwilson", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  reposLength: 2,
+  specificRepos: ["Jamming", "Recipe-Finder"],
 };
 
 // Leadership SECTION
@@ -91,12 +91,12 @@ const skills = {
   hardSkills: [
     { name: "Python", value: 90 },
     { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
+    { name: "C#", value: 85 },
+    { name: "C++", value: 65 },
+    { name: "JavaScript", value: 75 },
     { name: "React", value: 65 },
     { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Data Structures/Algorithms", value: 80 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -120,18 +120,18 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Assistant Tennis Coach',// Here Add Company Name
+      companylogo: require('../assets/img/top.png'),
+      date: 'January 2020 – Present',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Team Electro',
+      companylogo: require('../assets/img/clipart2203824.png'),
+      date: 'January 2024 – May 2024',
     },
   ]
 }
